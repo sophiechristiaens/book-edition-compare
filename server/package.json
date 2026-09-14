@@ -1,0 +1,26 @@
+{
+  "name": "book-edition-compare-backend",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.ts",
+    "start": "node src/server.ts",
+    "build": "tsc",
+    "migrate": "node src/scripts/migrate.ts",
+    "seed": "node src/scripts/seed.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.2",
+    "axios": "^1.6.0",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.10.0",
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.1"
+  }
+}
