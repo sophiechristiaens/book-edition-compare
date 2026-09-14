@@ -1,0 +1,74 @@
+.comparison-page {
+  padding: 40px 20px;
+}
+
+.comparison-page h2 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.comparison-table-wrapper {
+  overflow-x: auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.comparison-table thead {
+  background-color: #34495e;
+  color: white;
+}
+
+.comparison-table th {
+  padding: 20px;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #34495e;
+}
+
+.retailer-badge {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  color: #ecf0f1;
+  margin-top: 5px;
+}
+
+.comparison-table tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.comparison-table td {
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.feature-name {
+  font-weight: 600;
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  min-width: 150px;
+}
+
+.feature-value {
+  text-align: center;
+  color: #555;
+}
+
+.edition-cover {
+  max-width: 100px;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .comparison-table th,
+  .comparison-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+}

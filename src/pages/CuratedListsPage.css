@@ -1,0 +1,62 @@
+.curated-lists-page {
+  padding: 40px 20px;
+}
+
+.curated-lists-page h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.subtitle {
+  color: #7f8c8d;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.lists-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.list-card {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.list-card h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.list-card p {
+  color: #7f8c8d;
+  font-size: 14px;
+  margin-bottom: auto;
+  line-height: 1.5;
+}
+
+.book-count {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
